@@ -1,7 +1,7 @@
 import 'package:agendaconsulta/views/android/themes/theme_light.dart';
 import 'package:flutter/widgets.dart';
 
-Container skipButton() {
+Container skipButton(String text) {
   return Container(
     decoration: BoxDecoration(
         border: Border.all(color: Color(0xff000000), width: 1),
@@ -10,7 +10,7 @@ Container skipButton() {
     width: 100,
     height: 40,
     child: Center(
-      child: Text("Pular",
+      child: Text(text,
           textAlign: TextAlign.center,
           style: TextStyle(color: Color(0xff000000))),
     ),

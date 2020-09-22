@@ -15,7 +15,7 @@ class ChoicePage extends StatelessWidget {
           Center(
             child: logoCircle(),
           ),
-          Positioned(right: 30, bottom: 20, child: skipButton())
+          Positioned(right: 30, bottom: 20, child: skipButton("Pular"))
         ],
       ),
     );
