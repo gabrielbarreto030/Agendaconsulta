@@ -32,6 +32,7 @@ class SpecialityPage extends StatelessWidget {
             height: 30,
           ),
           Container(
+              padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
               color: Color(0xffffffff),
               width: 200,
               height: 60,
@@ -50,6 +51,7 @@ class SpecialityPage extends StatelessWidget {
             height: 20,
           ),
           Container(
+            padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
             color: Color(0xffffffff),
             width: 200,
             height: 60,

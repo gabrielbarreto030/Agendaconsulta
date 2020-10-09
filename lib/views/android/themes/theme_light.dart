@@ -6,6 +6,8 @@ final Brightness brightness = Brightness.light;
 
 ThemeData themeDataLight() {
   return ThemeData(
+      primaryTextTheme: TextTheme(
+          headline1: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
       textTheme: TextTheme(button: TextStyle(color: Color(0xffffffff))),
       brightness: brightness,
       primaryColor: primaryColor,

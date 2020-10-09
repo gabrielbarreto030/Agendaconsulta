@@ -24,8 +24,8 @@ class _DropDownAndroidState extends State<DropDownAndroid> {
       elevation: 16,
       style: TextStyle(color: Colors.deepPurple),
       underline: Container(
-        height: 2,
-        color: Colors.deepPurpleAccent,
+        height: 0,
+        color: Colors.black,
       ),
       onChanged: (String newValue) {
         setState(() {

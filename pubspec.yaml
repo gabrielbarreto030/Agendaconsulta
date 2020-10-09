@@ -48,9 +48,12 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+  #animations
     - assets/animations/Doctor_Scale.flr
     - assets/animations/Wave_Name.flr
     - assets/animations/ChooseDoor.flr
+  #imgs
+    - assets/imgs/icoGoogle.png
    
   #   - images/a_dot_ham.jpeg
 
